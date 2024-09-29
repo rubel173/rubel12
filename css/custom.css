@@ -1,0 +1,31 @@
+.atm-card {
+    background: linear-gradient(to right, #4fed7c, #ff9900);
+    /* Mastercard color gradient */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    /* text-align: center; */
+}
+
+.atm-card h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.atm-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home-card {
+    /* background: #2c7942; */
+    /* Mastercard color gradient */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.bg-softlight{
+    background: #F4F6FA;
+}

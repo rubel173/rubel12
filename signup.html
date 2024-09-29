@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Sign Up</title>
+    <style>
+      input,select{
+        height: 40px;
+        font-size: 18px !important;
+      }
+      a{
+        text-decoration: none;
+        font-size: 18px !important;
+      }
+
+    </style>
+</head>
+
+<body class="bg-light">
+  <div class="container d-flex flex-column">
+    <div class="row align-items-center justify-content-center g-0
+    min-vh-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xxl-4 py-3 py-xl-0">
+        <div class="card smooth-shadow-md">
+          <div class="card-body p-6">
+            <h3>Sign Up</h3>
+            <form method="POST" action="/login">
+              <label>Phone</label>
+              <div class="row mb-3">
+                <div class="col-4">
+                  <select class="form-select select2" name="phone_code">
+                    <option value="+93">+93 | AF</option>
+                    <option value="+358">+358 | AX</option>
+                    <option value="+355">+355 | AL</option>
+                    <option value="+213">+213 | DZ</option>
+                    <option value="+1684">+1684 | AS</option>
+                    <option value="+376">+376 | AD</option>
+                    <option value="+244">+244 | AO</option>
+                    <option value="+1264">+1264 | AI</option>
+                    <option value="+672">+672 | AQ</option>
+                    <option value="+1268">+1268 | AG</option>
+                    <option value="+54">+54 | AR</option>
+                    <option value="+374">+374 | AM</option>
+                    <option value="+297">+297 | AW</option>
+                    <option value="+61">+61 | AU</option>
+                    <option value="+43">+43 | AT</option>
+                    <option value="+994">+994 | AZ</option>
+                    <option value="+1242">+1242 | BS</option>
+                    <option value="+973">+973 | BH</option>
+                    <option value="+880"selected>+880 | BD</option>
+                    <option value="+1246">+1246 | BB</option>
+                    <option value="+375">+375 | BY</option>
+                    <option value="+32">+32 | BE</option>
+                    <option value="+501">+501 | BZ</option>
+                    <option value="+229">+229 | BJ</option>
+                    <option value="+1441">+1441 | BM</option>
+                  </select>
+                </div>
+                <div class="col-8">
+                  <input type="text" name="phone" class="form-control form-control-sm" autocomplete="off" placeholder="your phone">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="form-control form-control-sm" name="password" placeholder="**************" required="">
+              </div>
+              <div class="mb-3">
+                <label for="c_password">Confirm Password</label>
+                <input type="password" id="c_password" class="form-control form-control-sm" name="c_password" placeholder="**************" required="">
+              </div>
+              <div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-success">Sign Up</button>
+                </div>
+                <div class="d-md-flex justify-content-center mt-4">
+                  <div>
+                    Already here? <a href="login.html" class="fs-5">Sign In</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="js/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
